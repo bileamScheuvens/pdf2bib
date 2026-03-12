@@ -20,6 +20,7 @@ setuptools.setup(name='pdf2bib',
       entry_points = {
         'console_scripts': ["pdf2bib = pdf2bib.main:main"],
       },
+      include_package_data=True,
       packages=['pdf2bib'],
       install_requires= required_packages,
       zip_safe=False)
