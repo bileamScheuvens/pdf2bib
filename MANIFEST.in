@@ -1,0 +1,2 @@
+include pdf2bib/*.ini
+include requirements.txt
